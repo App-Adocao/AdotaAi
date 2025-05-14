@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/*Global --------------------------*/
+
+/*Global --------------------------*/
+
+
+
+/*Header --------------------------*/
+.HeaderDesktop {
+    display: flex;
+}
+.HeaderMobile {
+    display: none ;
+}
+@media (max-width: 800px) {
+    .HeaderDesktop {
+        display: none !important;
+    }
+    .HeaderMobile {
+        display: flex !important;
+    }
+  }
+
+header {
+    height: 150px;
+    background-color: #E7EDED;
+    border-radius: 0px 0px 30px 30px;
+    z-index: 1000;
+}
+main {
+    padding-top: 150px;
+
+}
+
+.logo {
+    font-family: 'nunito', sans-serif;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f4f9fa;
+    border: 1px solid #a0a8ab;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+  }
+  .bi-search-heart {
+    color: #a0a8ab;
+  }
+  .search-icon {
+    margin-right: 8px;
+    font-size: 16px;
+  }
+
+  .search-container input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #a0a8ab;
+    flex: 1;
+  }
+  .btn-header-2 {
+    border-color: #242424;
+    color: #242424;
+    all: unset;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 0px 10px;
+  }
+  .btn-header-2:hover {
+    border-color: #379494;
+    color: #379494;
+  }
+  .link-right {
+    color: #242424;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  .link-right:hover {
+    color: #379494;
+    text-decoration: none;
+  }
+  .icon-3 {
+    font-size: 23px;
+  }
+  .icon-4 {
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+  }
+.icons-right {
+    position: relative;
+    top: 9px;
+}
+.slide-down {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+  }
+
+  .slide-up {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.3s ease;
+  }
+
+.bottom-header-1,
+.bottom-header-2,
+.bottom-header-3 {
+  overflow: hidden;
+  max-height: 200px;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+
+.hidden-section {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 950px) {
+    .btn-header-2 {
+        border-color: #242424;
+        color: #242424;
+        all: unset;
+        cursor: pointer;
+        border: 1px solid;
+        padding: 0px 3px;
+      }
+  }
+
+
+/*Header --------------------------*/
+.bi-list {
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+}
+.icons-m-right {
+    position: relative;
+    bottom: 3px;
+}
+.bi-person {
+    font-size: 30px;
+}
+.bi-search {
+    font-size: 25px;
+}
+
+
+.menu-mobile {
+    position: fixed;
+    top: 70px;
+    right: 0px;
+    width: 100%;
+    background-color: #3b5f5a;
+    color: white;
+    border-radius: 20px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+    z-index: 999;
+  }
+  .menu-mobile.active {
+    max-height: 1000px;
+    opacity: 1;
+  }
+  .menu-mobile li {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+  .menu-mobile li:hover {
+    background-color: #2f5550;
+  }
+  .menu-mobile li:last-child {
+    border-bottom: none;
+  }
+
+
+
+
+  .search-focus input {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+/*Header --------------------------*/
+
+
+
+
+/*Footer --------------------------*/
+
+
+/*Footer --------------------------*/

@@ -1,9 +1,1 @@
-@extends('components.main')
-
-@section('title', 'Página Inicial')
-
-@section('content')
-
-    conteúdo da home
-
-@endsection
+<a href="{{ route('criarAdocao') }}">Criar Adoção Tobias</a>

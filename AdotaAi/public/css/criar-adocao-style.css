@@ -1,0 +1,38 @@
+#headerPets {
+    font-family: "Poppins", sans-serif;
+    background-color: #3d5555;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card.bg-white {
+    background-color: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-title,
+.form-label,
+.form-control,
+.btn,
+p,
+label {
+    font-weight: 700;
+}
+
+.seta {
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 1.5rem;
+    color: #3d5555;
+    font-weight: 700;
+}
+
+#previewImage img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
