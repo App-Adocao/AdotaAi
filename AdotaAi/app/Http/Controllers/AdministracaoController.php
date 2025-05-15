@@ -10,4 +10,9 @@ class AdministracaoController extends Controller
 
         return view('criar-adocao');
     }
+
+    public function formulario(){
+
+        return view('formulario');
+    }
 }

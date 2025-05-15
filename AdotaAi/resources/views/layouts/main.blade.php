@@ -14,7 +14,7 @@
 <body class="d-flex flex-column min-vh-100">
     @include('components.header')
 
-    <main class="container flex-fill">
+    <main class="container flex-fill" style="margin-top: 50px; margin-bottom: 50px;">
         @yield('content')
     </main>
 
