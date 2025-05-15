@@ -1,0 +1,63 @@
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .background-wave {
+      background: url(../img/Vector.png) no-repeat center top;
+      background-size: cover;
+      width: 100%;
+    }
+
+
+    .filters {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: 768px) {
+      .filters {
+        justify-content: flex-start;
+        padding-left: 2rem;
+      }
+    }
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .cards-container > div {
+      width: calc(50% - 0.75rem);
+    }
+
+    @media (min-width: 768px) {
+      .cards-container > div {
+        width: 15%;
+      }
+    }
+
+    .animal-card {
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    .animal-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .card-info {
+      padding: 0.75rem 1rem;
+    }
+
+    .pagination-container {
+      padding: 2rem 1rem 1rem 1rem;
+    }

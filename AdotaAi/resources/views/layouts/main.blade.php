@@ -15,6 +15,7 @@
     @include('components.header')
 
     <main class="container flex-fill">
+    <main>
         @yield('content')
     </main>
 

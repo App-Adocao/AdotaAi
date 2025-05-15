@@ -1,0 +1,45 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .wave-bg {
+      background-image: url(../img/Vector.png); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 100vh;
+    }
+
+    .content-wrapper {
+      max-width: 95%;
+      width: 100%;
+      margin: auto;
+    }
+
+    .pet-image {
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .info-box {
+      background-color: #3f5553;
+      color: white;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-adopt {
+      background-color: #3f5553;
+      color: white;
+      border-radius: 25px;
+      padding: 10px 30px;
+      font-weight: bold;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: black;
+      border-radius: 50%;
+    }
